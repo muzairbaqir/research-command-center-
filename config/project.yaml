@@ -1,21 +1,2 @@
-project:
-  name: "Entry Intelligence"
-  command_center_version: "0.1.0"
-
 repositories:
-  execution_repository: null
-
-protocol:
-  current_version: "EI-PROTOCOL-v0.1"
-  status: "DRAFT"
-
-agents:
-  architect: "ChatGPT"
-  executor: "Antigravity"
-  validator: "Claude"
-
-experiment:
-  current_id: null
-
-decision:
-  current_status: "INITIALIZATION"
+  execution_repository: "/Users/uzair/Documents/binance"
