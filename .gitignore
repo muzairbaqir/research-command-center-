@@ -1,0 +1,34 @@
+# Research Command Center .gitignore
+
+# Environment and secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+credentials.json
+tokens.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Python & Build artifacts (if any tools are run)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+
+# Temporary files & scratch
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
