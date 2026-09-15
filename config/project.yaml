@@ -1,2 +1,21 @@
+project:
+  name: "Entry Intelligence Research"
+
 repositories:
+  main_project_repository: "/Users/uzair/Documents/binance"
   execution_repository: "/Users/uzair/Documents/binance"
+
+protocol:
+  current_version: "EI-PROTOCOL-v0.1"
+  status: "DRAFT"
+
+agents:
+  architect: "ChatGPT"
+  executor: "Antigravity"
+  validator: "Claude"
+
+experiment:
+  current_id: null
+
+decision:
+  current_status: "INITIALIZATION"
